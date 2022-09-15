@@ -1,0 +1,124 @@
+{
+  "ssm:account=531271033878:parameterName=app-vpc-id:region=ap-south-1": "vpc-0f66c5e9cc0364ae1",
+  "ssm:account=531271033878:parameterName=app-load-balancer-security-group-id:region=ap-south-1": "sg-0e7eff43a580207b1",
+  "vpc-provider:account=531271033878:filter.vpc-id=vpc-0f66c5e9cc0364ae1:region=ap-south-1:returnAsymmetricSubnets=true": {
+    "vpcId": "vpc-0f66c5e9cc0364ae1",
+    "vpcCidrBlock": "10.1.0.0/16",
+    "availabilityZones": [],
+    "subnetGroups": [
+      {
+        "name": "Public",
+        "type": "Public",
+        "subnets": [
+          {
+            "subnetId": "subnet-06f68576dffc8a3fb",
+            "cidr": "10.1.0.0/19",
+            "availabilityZone": "ap-south-1a",
+            "routeTableId": "rtb-08d52d327c2f26309"
+          },
+          {
+            "subnetId": "subnet-0dec250fa58ec4a73",
+            "cidr": "10.1.32.0/19",
+            "availabilityZone": "ap-south-1b",
+            "routeTableId": "rtb-0a8d6c8038d9aab28"
+          },
+          {
+            "subnetId": "subnet-0594b31ccf4052740",
+            "cidr": "10.1.64.0/19",
+            "availabilityZone": "ap-south-1c",
+            "routeTableId": "rtb-0aa51bcbbe74efd41"
+          }
+        ]
+      },
+      {
+        "name": "Private",
+        "type": "Private",
+        "subnets": [
+          {
+            "subnetId": "subnet-0b00c11733dde0c36",
+            "cidr": "10.1.96.0/19",
+            "availabilityZone": "ap-south-1a",
+            "routeTableId": "rtb-02b98d1cd0b0abbfa"
+          },
+          {
+            "subnetId": "subnet-04679fb2d2a760414",
+            "cidr": "10.1.128.0/19",
+            "availabilityZone": "ap-south-1b",
+            "routeTableId": "rtb-0daa9cc6c4ceb5aed"
+          },
+          {
+            "subnetId": "subnet-04e3f63c36daa6efe",
+            "cidr": "10.1.160.0/19",
+            "availabilityZone": "ap-south-1c",
+            "routeTableId": "rtb-03b1e603276f83fa7"
+          }
+        ]
+      }
+    ]
+  },
+  "security-group:account=531271033878:region=ap-south-1:securityGroupId=sg-0e7eff43a580207b1": {
+    "securityGroupId": "sg-0e7eff43a580207b1",
+    "allowAllOutbound": false
+  },
+  "ssm:account=586112330472:parameterName=app-vpc-id:region=ap-south-1": "vpc-036f65b699b842c47",
+  "ssm:account=586112330472:parameterName=app-load-balancer-security-group-id:region=ap-south-1": "sg-0b75b513fa6fce042",
+  "vpc-provider:account=586112330472:filter.vpc-id=vpc-036f65b699b842c47:region=ap-south-1:returnAsymmetricSubnets=true": {
+    "vpcId": "vpc-036f65b699b842c47",
+    "vpcCidrBlock": "10.2.0.0/16",
+    "availabilityZones": [],
+    "subnetGroups": [
+      {
+        "name": "Public",
+        "type": "Public",
+        "subnets": [
+          {
+            "subnetId": "subnet-082a191ceeb0f3ecb",
+            "cidr": "10.2.0.0/19",
+            "availabilityZone": "ap-south-1a",
+            "routeTableId": "rtb-0e781c165e27a4ca1"
+          },
+          {
+            "subnetId": "subnet-0e42a3d7dcf559c8d",
+            "cidr": "10.2.32.0/19",
+            "availabilityZone": "ap-south-1b",
+            "routeTableId": "rtb-0c2fdf7ed4ee93593"
+          },
+          {
+            "subnetId": "subnet-020de531003386b54",
+            "cidr": "10.2.64.0/19",
+            "availabilityZone": "ap-south-1c",
+            "routeTableId": "rtb-0a8ab6237e1ca2e36"
+          }
+        ]
+      },
+      {
+        "name": "Private",
+        "type": "Private",
+        "subnets": [
+          {
+            "subnetId": "subnet-0d41b93babf78bd82",
+            "cidr": "10.2.96.0/19",
+            "availabilityZone": "ap-south-1a",
+            "routeTableId": "rtb-0b473d1562c574b50"
+          },
+          {
+            "subnetId": "subnet-01c75228fec7397bd",
+            "cidr": "10.2.128.0/19",
+            "availabilityZone": "ap-south-1b",
+            "routeTableId": "rtb-000163c8f94bc97d3"
+          },
+          {
+            "subnetId": "subnet-08bf4d77f8cc5abd6",
+            "cidr": "10.2.160.0/19",
+            "availabilityZone": "ap-south-1c",
+            "routeTableId": "rtb-070dad62a212e6707"
+          }
+        ]
+      }
+    ]
+  },
+  "security-group:account=586112330472:region=ap-south-1:securityGroupId=sg-0b75b513fa6fce042": {
+    "securityGroupId": "sg-0b75b513fa6fce042",
+    "allowAllOutbound": false
+  }
+}

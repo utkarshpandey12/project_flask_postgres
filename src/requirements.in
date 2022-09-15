@@ -1,0 +1,15 @@
+Flask
+psycopg2
+SQLAlchemy
+Flask-SQLAlchemy
+argon2-cffi
+Flask-Argon2
+Flask-Login
+redis
+Flask-And-Redis
+rq
+marshmallow
+shortuuid
+boto3
+python-slugify
+phonenumbers

@@ -1,0 +1,26 @@
+*.py[cod]
+*.dot
+*.sw?
+*.orig
+*.bak
+.DS_Store
+.cache
+env.sh
+env.bat
+.vscode/*
+.idea/*
+node_modules/*
+npm-debug.log
+__pycache__/*
+dist/*
+tmp/*
+
+# Environments
+.python-version
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/

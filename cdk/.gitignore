@@ -1,0 +1,20 @@
+*.sw?
+package-lock.json
+__pycache__
+.pytest_cache
+*.egg-info
+.idea
+
+# Environments
+.python-version
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
